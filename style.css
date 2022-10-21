@@ -9,13 +9,13 @@
     margin: 0px;
     padding:0px;
 }
-:root{
+:root {
     --font-padrao:'Times New Roman', Times, serif;
     --fonte-header:  'Passion One', cursive;
     --fonte-main:  'Sriracha', cursive;
 }
 
-body{
+body {
     font-family: var(--font-padrao);
     min-height: 100vh;
     background-color: white;
@@ -24,36 +24,36 @@ body{
 
 
 
-header{
+header {
     background-color: black;
     text-align: center;
     color: white; 
     
 }
-header>h1{ 
+header>h1 { 
     padding-top:50px;
     font-family: var(--fonte-header);
     font-size: 10vw;
     font-variant:small-caps;
 }
 
-header>p{
+header>p {
     color: rgba(253, 253, 253, 0.493);
     padding-bottom: 50px;
     padding-top: 5px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
-a:hover{
+a:hover {
     text-decoration: underline;
     color: yellowgreen;
 }
 
-.texto01{
+.texto01 {
    
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.411);
@@ -61,9 +61,9 @@ a:hover{
     color: white;
     padding: 5px;
     text-shadow: 1px 2px 1px black;
-  
 }
-  .texto02{ display: inline-block;
+  .texto02 {
+    display: inline-block;
     background-color:rgba(27, 26, 26, 0.479);
     font-family: var(--fonte-main);
     color:white;
@@ -71,12 +71,12 @@ a:hover{
     text-shadow: 1px 2px 1px black;
 }
 
-p{
+p {
     padding-top:50px;
 }
-section{ 
+section { 
     
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: var(--fonte-main);
     line-height: 2em;
     padding-bottom: 10vh;
@@ -84,39 +84,34 @@ section{
     padding-top: 10vh;
     background-color: white;
 }
-section>p{
+section>p {
     padding-bottom: 2em;
 }
 
-#image01{ 
+#image01 { 
     position: relative;
     background-image: url("image/background001.jpg");
-    background-position: center right;
+    background-position:right center ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover ;
-    width: auto;
-    height: auto;
     box-shadow: inset 1px 1px 8px 0px black;
-   
     }  
  
 
-  #image02{
+  #image02 {
     position: relative;
     background-image: url("image/background002.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover ;
     background-attachment:fixed;
-    width: auto;
-    height: auto;
     box-shadow: inset 1px 1px 8px 0px black;
    
 }
 
 
-footer>p{
+footer>p {
     background-color: rgba(0, 0, 0, 0.747);
     color: white;
     text-align: center;
