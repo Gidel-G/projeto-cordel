@@ -91,10 +91,9 @@ section>p {
 #image01 { 
     position: relative;
     background-image: url("image/background001.jpg");
-    background-position:right center ;
-    background-repeat: no-repeat;
+    background-position: right center ;
     background-attachment: fixed;
-    background-size:cover ;
+    background-size:cover;
     box-shadow: inset 1px 1px 8px 0px black;
     }  
  
@@ -103,7 +102,6 @@ section>p {
     position: relative;
     background-image: url("image/background002.jpg");
     background-position: center center;
-    background-repeat: no-repeat;
     background-size:cover ;
     background-attachment:fixed;
     box-shadow: inset 1px 1px 8px 0px black;
@@ -113,10 +111,9 @@ section>p {
 
 footer>p {
     background-color: rgba(0, 0, 0, 0.747);
-    color: white;
+    color: rgb(5, 197, 37);
     text-align: center;
     padding: 10px;
-    border-radius: 10px 10px 0px 0px;
     font-size: 16px;
     
 }
