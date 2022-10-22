@@ -90,7 +90,7 @@ section>p {
 
 #image01 { 
     
-    height:45vh ;
+    max-height:100vh;
     position: relative;
     background-image: url("image/background001.jpg");
     background-position: right center ;
@@ -101,7 +101,7 @@ section>p {
  
 
   #image02 {
-    height: 45vh;
+    max-height:100vh;
     position: relative;
     background-image: url("image/background002.jpg");
     background-position: center center;
