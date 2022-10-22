@@ -115,6 +115,7 @@ footer>p {
     color:white;
     text-align: center;
     padding: 10px;
+    font-family: var(--font-padrao);
     font-size: 16px;
     
 }
